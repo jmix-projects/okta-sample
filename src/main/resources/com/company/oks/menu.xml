@@ -4,6 +4,7 @@
     <menu id="application" caption="msg://com.company.oks/menu.application" insertBefore="administration">
         <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
         <item screen="Order_.browse" caption="msg://com.company.oks.screen.order/orderBrowse.menu"/>
+        <item screen="SessionDataScreen" caption="msg://com.company.oks.screen.sessiondata/sessionDataScreen.caption"/>
     </menu>
 
 </menu-config>

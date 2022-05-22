@@ -22,6 +22,9 @@
                 <sideMenu id="sideMenu"
                           width="100%"
                           stylename="jmix-drawer-content"/>
+                <hbox spacing="true" margin="true;true;true;true;" width="100%">
+                    <button id="tenantAuthenticationBtn" caption="Authenticate" icon="GLOBE" width="100%"/>
+                </hbox>
                 <timeZoneIndicator id="timeZoneIndicator"
                                    align="MIDDLE_CENTER"/>
                 <cssLayout id="controlBox"

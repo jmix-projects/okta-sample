@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://sessionDataScreen.caption">
+    <layout expand="soapPortsGroupBox" spacing="true">
+        <button id="refreshBtn" caption="Refresh" icon="REFRESH"/>
+        <groupBox id="soapPortsGroupBox" caption="SoapPorts values">
+            <form editable="false">
+                <textField id="passwordField" caption="Password" datatype="string"/>
+                <checkBox id="authenticatedCb" caption="Authenticated"/>
+            </form>
+        </groupBox>
+    </layout>
+</window>

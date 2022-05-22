@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://tenantAuthenticationScreen.caption">
+    <layout spacing="true">
+        <form>
+            <textField id="passwordField" caption="Password"/>
+        </form>
+        <label id="authenticatedSuccessfullyBtn" value="Authenticated successfully"
+               css="color: green" visible="false"/>
+        <button id="authenticateBtn" caption="Authenticate"/>
+    </layout>
+</window>
